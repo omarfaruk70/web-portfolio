@@ -55,14 +55,15 @@ font-family:  Times;
     cursor: pointer;
 }
 .main{
-    height: 590px;
+    clear: both;
+    height: 500px;
     width: 100%;
-    background-color: rgb(132, 153, 111);
+    background-color:green;
 
 }
 .artical-part{
-    width: 50%;
-    height: 100%;
+   padding-left: 50px;
+   padding-top: 80px;
     float: left;
 }
   h1{
@@ -85,9 +86,7 @@ span{
     margin-left: 20px;
     border-radius: 50%;
     cursor: pointer;
-    
-
-
+ 
 }
 .btn a{
     text-decoration: none;
