@@ -1,0 +1,54 @@
+h1{
+    color: blue;
+    background-color: oldlace;
+    text-align: center;
+}
+
+.wrapper{
+    
+    width: 450px;
+    box-shadow: 5px 6px 7px 8px ;
+    margin: auto;
+    border-radius: 5px;
+    padding: 50px;
+    box-align: center ;
+    box-sizing: auto;
+}
+
+
+input[type="radio"] {
+
+  padding: 5%;
+}
+select{
+width: 30%;
+padding: 7px;
+}
+input[type="checkbox"] {
+
+   padding: 5%;
+}
+input[type="submit"]{
+    text-align: center;
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgb(32, 32, 218);
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="reset"] {
+    color: white;
+    background: red;
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 3px;
+}
+legend{
+    color: rgb(8, 0, 255);
+    text-align: center;
+}
+

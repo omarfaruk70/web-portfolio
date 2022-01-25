@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="refresh " content="03">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>this is 9th class assignment </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="success.html">
+      <!-- when we take any input (file) we must take an enctype value in form tag -->
+</head>
+<body>
+   
+  <div class=" wrapper">
+    <!-- 
+    we can put any kind of input on the html form. And these processing are
+      1.  input tag 
+      2. select
+      3. text area
+
+       -->
+
+              <form action=" success.html" enctype="multipart/form-data">
+              <fieldset> 
+                    <legend>   Registration </legend>
+              <label for="name"> Name : <span style="color: red;"> *</span></label> <br>
+              <input type="text"id="name" name="Name" placeholder="Enter your name" required >
+              <br> 
+              <label for="email"> Email : <span style=" color: red;">  * </span> </label> <br>
+              <input type="email" id="email" name="Email" placeholder=" Enter your email address"required > 
+              <br> 
+              <label for="password">Enter your password <span style=" color: red;">  * </span> </label> <br>
+              <input type="password" id="password" name="password" placeholder="Enter your password" required> 
+              <br>
+              <label for="number">Phone <span style=" color: red;">  * </span> </label> <br>
+              <input type="number " id="number"  name="phone"placeholder=" Enter your mobile number" required>
+              <br>
+              <label for="date"> Date of birth  <span style=" color: red;" required>  * </span> </label> <br>
+              <input type="date" id="date"> <br>
+              <label for="fav  color"> Favourite color </label> <br>
+              <input type="color" id=" fav color" placeholder="Favourite color"> <br>
+              <br> 
+              <label for="Nationality"> Nationality <span style=" color: red;">  * </span> </label> <br>
+              <select id="Nationality" required> 
+                  <option value=""> choose One </option>
+                  <option value="BD"> Bangladesh   </option>
+                  <option value="IND">   India   </option>
+                  <option value="USA" > America </option>
+                  <option value="UK">  South koria </option>
+              </select> 
+             <br> <br>
+      <label for=""> gender <span style=" color: red; required">  * </span> </label> <br>
+
+                <input type="radio" name="gender"  value=" male"id=" male">
+                <label for="male ">    male  </label> <br>
+                <input type="radio" name="gender" value="female" id=" female">
+                <label for="female "> female</label> <br>
+                <input type="radio" name="gender" value="others" id=" others">
+                <label for="others "> others </label> <br>
+                <br> 
+                <label for="file "> Image   </label> <br>
+                <input type="file" name="file" value="file" id=" file"> <br> <br>
+
+       <label for="">   SKILL</label> 
+           <br>
+              
+              <input type="checkbox">  HTML <br>
+              <input type="checkbox"> CSS  <br>
+              <input type="checkbox"> BOOTSTAP <br>
+              <input type="checkbox"> PHP  <br>
+              <input type="checkbox">  JS<br>
+              <input type="checkbox"> JQUERY <br>
+              <input type="checkbox"> PHYTHON <br>
+                    <br> <br> 
+                  <input type="submit" value="Submit" >   <span> Or </span>
+                  <input type="reset" value="  reset your data">
+
+  </fieldset>
+</form>
+
+</div>
+</body>
+</html>
+
+</body>
+</html>
